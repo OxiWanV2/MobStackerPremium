@@ -69,7 +69,6 @@ excluded-mobs:
   - ENDER_DRAGON
 
 messages:
-  action-bar: "&eVous êtes sur un serveur de repli. Veuillez patienter..."
   stick-success: "&aLes mobs proches ont été empilés !"
 ```
 
