@@ -1,0 +1,16 @@
+# MobStacker Premium Configuration
+
+# Maximum number of mobs in a stack
+max-stack-size: 50
+
+# Radius to check for nearby entities to stack
+stack-radius: 5.0
+
+# List of mob types to exclude from stacking
+excluded-mobs:
+  - VILLAGER
+  - WITHER
+  - ENDER_DRAGON
+
+messages:
+  stick-success: "&aLes mobs proches ont été empilés !"

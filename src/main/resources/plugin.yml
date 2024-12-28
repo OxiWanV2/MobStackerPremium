@@ -1,0 +1,17 @@
+name: MobStackerPremium
+version: '1.2'
+main: com.oxiwan.mobstackerpremium.MobStackerPremium
+api-version: '1.21'
+authors: [OxiWan]
+description: A premium mob stacking plugin for improved server performance
+commands:
+  mobstacker:
+    description: Commandes principales pour MobStacker Premium
+    usage: /<command> [help|reload|stick|stats]
+permissions:
+  mobstackerpremium.reload:
+    description: Permission pour recharger la configuration
+    default: op
+  mobstackerpremium.stick:
+    description: Permission pour recevoir le bâton de stacking
+    default: op
